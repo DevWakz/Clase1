@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+}
+
+hr {
+    border: 1px dotted #ff0000;
+    border-style: none none dotted; 
+    color: #fff; 
+
+    height: 1px;
+    background-color: yellow;
+    border-style: solid;
+    border-radius:  5px;
+    width: 85%;
+}
+
+h1 {
+    color:  #FFED00; 
+}
+h2{
+    color: white;
+}
+h3{
+    color: yellow;
+}
+
+p {
+    color: white; 
+}
+li{
+    color: white;
+}
+td{
+    color: white;
+}
+
+    th, td {
+        background-color: crimson;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        
+    }
+
+    tr:hover {background-color: crimson;}
+
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+.chido{
+    background-color: #FFED00;
+    border-style: dashed;
+    border-color: rgb(27, 88, 255);
+}
