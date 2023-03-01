@@ -1,55 +1,102 @@
-body {
-    background-color: #000;
+body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Zeyada', cursive;
+    margin: 0;
 }
-
-hr {
-    border: 1px dotted #ff0000;
-    border-style: none none dotted; 
-    color: #fff; 
-
-    height: 1px;
-    background-color: yellow;
-    border-style: solid;
-    border-radius:  5px;
-    width: 85%;
-}
-
-h1 {
-    color:  #FFED00; 
+h1{
+    margin: 0;
+    font-family: 'Lobster', cursive;
 }
 h2{
-    color: white;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
 }
 h3{
-    color: yellow;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
 }
 
-p {
-    color: white; 
+
+.topLeft-container{
+    height:200px;
+    background-color: bisque;
+    width: 200px;
+    position: absolute;
+ 
 }
-li{
-    color: white;
+.topMid-container{
+    height:200px;
+    background-color: brown;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+
 }
-td{
-    color: white;
+.topRight-container{
+    height:200px;
+    background-color: bisque;
+    width: 200px;
+    position: absolute;
+    left: 400px;
 }
 
-    th, td {
-        background-color: crimson;
-        color: white;
-        padding: 15px;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-        
-    }
 
-    tr:hover {background-color: crimson;}
-
-    body, h1, h2, h3, h4, h5, h6 {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-.chido{
-    background-color: #FFED00;
-    border-style: dashed;
-    border-color: rgb(27, 88, 255);
+.midLeft-container{
+    height:200px;
+    background-color: brown;
+    width: 200px;
+    position: absolute;
+    top: 200px;
 }
+
+.mid-container{
+    height:200px;
+    background-color: bisque;
+
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+.midRight-container{
+    height:200px;
+    background-color: brown;
+
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.botLeft-container{
+    height:200px;
+    background-color: bisque;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+}
+
+.botMid-container{
+    height:200px;
+    background-color: brown;
+
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+
+}
+.botRight-container{
+    height:200px;
+    background-color: bisque;
+
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
