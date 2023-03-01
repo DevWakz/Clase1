@@ -19,13 +19,19 @@ h3{
     font-family: 'Abril Fatface', cursive;
 }
 
+img {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    padding: 20px 20px;
+}
 
 .topLeft-container{
     background-color: bisque;
     height:200px;
     width: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
  
 }
 .topMid-container{
@@ -33,7 +39,7 @@ h3{
     height:200px;
     width: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     
   
 
@@ -56,7 +62,7 @@ h3{
 }
 
 
-/* .midLeft-container{
+.midLeft-container{
     height:200px;
     background-color: brown;
     width: 200px;
@@ -111,4 +117,4 @@ h3{
     top: 400px;
     left: 400px;
 }
- */
+
