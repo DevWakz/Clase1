@@ -21,95 +21,31 @@ h3{
 
 img {
     margin: 0;
-    width: 125px;
-    height: 125px;
+    width: 60px;
+    height: 60px;
     padding: 20px 20px;
 }
 
-.topLeft-container{
+.Row-container{
     background-color: bisque;
-    height:200px;
-    width: 200px;
+    height:100px;
+    width: 100px;
+    display: inline-block;
     
-    position: absolute;
  
 }
-.topMid-container{
+.Brown-container{
     background-color: brown;
-    height:200px;
-    width: 200px;
-  
-    position: absolute;
-    left: 200px;
-  
+    height:100px;
+    width: 100px;
+    display: inline-block;
 
 }
-.topRight-container{
+.Bisque-container{
     background-color: bisque;
-    height:200px;
-    width: 200px;
-   
-    position: absolute;
-    left: 400px;
- 
-   
+    height:100px;
+    width: 100px;
+    display: inline-block;
 }
 
-
-
-.midLeft-container{
-    height:200px;
-    background-color: brown;
-    width: 200px;
-    position: absolute;
-    top: 200px;
-}
-
-.mid-container{
-    height:200px;
-    background-color: bisque;
-
-    width: 200px;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-
-}
-.midRight-container{
-    height:200px;
-    background-color: brown;
-
-    width: 200px;
-    position: absolute;
-    top: 200px;
-    left: 400px;
-}
-
-.botLeft-container{
-    height:200px;
-    background-color: bisque;
-    width: 200px;
-    position: absolute;
-    top: 400px;
-}
-
-.botMid-container{
-    height:200px;
-    background-color: brown;
-
-    width: 200px;
-    position: absolute;
-    top: 400px;
-    left: 200px;
-
-}
-.botRight-container{
-    height:200px;
-    background-color: bisque;
-
-    width: 200px;
-    position: absolute;
-    top: 400px;
-    left: 400px;
-}
 
